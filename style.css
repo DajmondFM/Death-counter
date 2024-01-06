@@ -1,0 +1,38 @@
+body {
+    background-image: url('sekiro.jpg');
+    background-size: cover; /* Scale the image to the largest size such that both its width and its height can fit inside the content area */
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+#a {
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+}
+#counter-value {
+    color: white;
+    font-size: 200px;
+}
+
+#decrement-btn {
+    font-size: 50px;
+    width: 50px;
+    height: 80px;
+    cursor:pointer;
+    color: black;
+    /* margin: 5px; */
+}
+#increment-btn {
+    font-size: 50px;
+    width: 50px;
+    height: 80px;
+    cursor:pointer;
+    color: black;
+    /* margin: 5px; */
+}
+
+#text {
+    color: white;
+    font-size: 55px;
+}
